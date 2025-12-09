@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nav-Bar</title>
+
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+<body>
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navber-brand" href="#">
+            <img src="OBMC 60 Icon_Circle.png" alt="logo" width="50px" height="50px">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar"></button>OB Montessori Center
+        <div class="collapse navbar-collapse" id="mynavbar">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html" target="_self">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html" target="_self">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="enroll.html" target="_self">Enroll</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html" target="_self">Contact Us</a></li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="text" placeholder="Search">
+            <button class="btn btn-primary" type="button">Search</button>
+          </form>
+        </div>
+      </div>
+</nav>
+
+<div class="row w-50 offset-1 mt-5">
+        <h2>School Office hours</h2>
+      <table class="table table-striped"> 
+          <thead>
+            <tr class="fw-bold">
+              <td>Day</td>
+              <td>Office Hours</td>
+              <td>Department</td>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>Monday</td>
+              <td>8:00 AM-4:00 PM</td>
+              <td>Registrar's Office</td>
+            </tr> 
+            <tr>
+              <td>Tuesday</td>
+              <td>8:00 AM-4:00 PM</td>
+              <td>Accounting Office </td>
+            </tr> 
+            <tr>
+              <td>Wednesday</td>
+              <td>8:00 AM-4:00 PM</td>
+              <td>Guidance Office</td>
+            </tr> 
+            <tr>
+              <td>Thursday</td>
+              <td>8:00 AM-4:00 PM</td>
+              <td>Principal's Office</td>
+            </tr> 
+            <tr>
+              <td>Friday</td>
+              <td>8:00 AM-3:00 PM</td>
+              <td>Admin Office</td>
+            </tr> 
+          </tbody>
+      </table>
+</div>
+
+<div class="row w-50 offset-1 mt-5">
+  <h2>Contact Us</h2>
+<form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Full Name</label>
+    <input class="form-control" id="Name" placeholder="Enter your full name">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="email" class="form-control" id="Email" placeholder="Enter your email">
+  </div>
+    <div class="form-group">
+    <label for="exampleInputPassword1">Subject</label>
+    <input type="email" class="form-control" id="Email" placeholder="Enter your subject">
+  </div>
+    <div class="form-group">
+    <label for="exampleInputPassword1">Message</label>
+    <input type="email" class="form-control" id="Email" placeholder="Type your message here">
+  </div>
+
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+</div>
+
+
+</body>
+</html>
